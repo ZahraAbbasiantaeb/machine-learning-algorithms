@@ -1,6 +1,6 @@
 from random import randint
 import numpy as np
-from q1.Kmeans import Kmean
+from Kmeans import Kmean
 from util import  plot_clusterede_data_2D
 
 
@@ -62,7 +62,7 @@ def HC_Divisive(points, level):
 
 # test this algorithm
 
-points = np.loadtxt('/Users/zahra_abasiyan/Desktop/Machine Learning/HW5/question3/data_h.txt',delimiter='\t' )
+points = np.loadtxt('/data_h.txt',delimiter='\t' )
 
 level=3
 
