@@ -5,5 +5,5 @@
 <p>DBSCAN</p>
 <p>Gradient Descent</p>
 <p>Gaussian Naive Bayes Classifier</p>
-<p>hierarchical agglomerative clustering</p>
-<p>hierarchical Divisive clustering</p>
+<p>Hierarchical Agglomerative Clustering</p>
+<p>Hierarchical Divisive Clustering</p>
