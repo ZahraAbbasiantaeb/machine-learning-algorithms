@@ -64,7 +64,7 @@ def createNDimentionalArray(dt, n):
     y[:,0]=dt[:,1]
     return x,y
 
-# this function calculates the weights with OLS method
+# this function calculates the weights with OLS(Ordinary least square) method
 def OrdinaryleastSquares(x,y):
     newX=np.dot(x.transpose(),x)
     invX=inv(newX)
@@ -78,10 +78,10 @@ def initTheta(k):
     theta[:, 0] = 1
     return  theta
 
-#this function reads data from file and after shuffling the data set, patitions the
+# this function reads data from file and after shuffling the data set, patitions the
 # data set to test, train, and validation data
 def initDataSet():
-    lines = loadtxt("/Users/zahra_abasiyan/Desktop/Machine Learning/HomeWorks/HW1/data1.txt", comments="#",
+    lines = loadtxt("/data1.txt", comments="#",
                     delimiter=",", unpack=False)
     np.random.shuffle(lines)
     train, validate, test = np.split(lines, [int(.6 * len(lines)), int(.8 * len(lines))])
