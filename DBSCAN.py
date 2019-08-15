@@ -1,7 +1,7 @@
 import numpy as np
 
 
-# DBSCAN algorithm implementation
+# DBSCAN algorithm
 def DBscan(dataPoints, eps, MinPts):
 
     labels = np.zeros(len(dataPoints))
