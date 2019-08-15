@@ -58,7 +58,7 @@ def test_model(train,test):
 
 
 #initialization
-data = loadmat('/Users/zahra_abasiyan/Desktop/Machine Learning/HomeWorks/HW3/fMRI.mat')
+data = loadmat('/fMRI.mat')
 data=data['Data']
 test_data=[]
 train_data=[]
