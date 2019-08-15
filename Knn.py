@@ -120,7 +120,7 @@ def splitTargetAndDataset(dataset):
         target.append(dataset[i, 5])
     return data,target
 
-test,train,data = loadData('/Users/zahra_abasiyan/Desktop/Machine Learning/HomeWorks/HW2_ZahraAbbasiyan_97131015/iris.txt')
+test,train,data = loadData('/iris.txt')
 train_data = train.as_matrix()
 test_data= test.as_matrix()
 train_data,train_target=splitTargetAndDataset(train_data)
