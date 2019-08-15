@@ -1,8 +1,8 @@
 import numpy as np
-from q1.Kmeans import getEuclidDistance
+from Kmeans import getEuclidDistance
 from util import plot_clusters_2D
 
-points = np.loadtxt('/Users/zahra_abasiyan/Desktop/Machine Learning/HW5/question3/data_h.txt',delimiter='\t' )
+points = np.loadtxt('/data_h.txt',delimiter='\t' )
 
 
 def find_cluster_members(cluster, points, lables):
